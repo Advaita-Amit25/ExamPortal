@@ -1,0 +1,40 @@
+<div class="bootstrap-wrapper body2">
+    <div class="container " >
+        <div class="row top">
+            <!-- There is Total 12 grid in which it will occupy 6 grid -->
+            <div class="col-md-8 offset-md-2 body">
+                <!-- <div class="container text-center" id="box">
+                    <img src="../../../assets/logo.jpg" alt="">
+                </div> -->
+                <h1 class="heading text-center">Add Category</h1>
+
+                <!-- {{category |json}} -->
+                <form (ngSubmit)="formSubmit()"  >
+                    <!-- Category Title -->
+                    <mat-form-field  class="full-wid" appearance="outline">
+                        <mat-label >Title</mat-label>
+                        <input required [(ngModel)]="category.title"  name="title" type="text"   matInput placeholder="Enter Category Title">
+                        <mat-hint>Enter Title Of Your Category</mat-hint>
+                    </mat-form-field>
+                    <!-- Description -->
+                    <mat-form-field  class="full-wid" appearance="outline">
+                        <mat-label >Description</mat-label>
+                        <textarea name="description" [(ngModel)]="category.description" id="" rows="10" matInput placeholder="Enter Category Description" ></textarea>
+                        <!-- <textarea required  name="description"   matInput placeholder="Enter Category Description"> -->
+                    </mat-form-field>
+                    <!-- FirstName -->
+                    <!-- <mat-form-field  class="full-wid" appearance="outline">
+                        <mat-label >Firstname</mat-label>
+                        <input required  name="firstName" type="text"   matInput placeholder="Enter Here">
+                    </mat-form-field> -->
+                    
+                    <!-- Button -->
+                    <div class="container text-center" >
+                        <button type="submit" mat-raised-button color="primary">Add</button>
+                        <button type="reset" mat-raised-button color="accent">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

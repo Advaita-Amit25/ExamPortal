@@ -1,0 +1,17 @@
+.example-header-image {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/5692/5692030.png');
+    background-size: cover;
+  }
+.mt{
+    margin-top: 5px;
+}
+.matCard{
+    color: aliceblue;
+}
+.button{
+    margin-right: 5px;
+}
+.container{
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .matIcon{
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 20px;
+
+    
+}

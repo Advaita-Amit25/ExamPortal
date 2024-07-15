@@ -1,0 +1,45 @@
+h2{
+    text-align: center;
+}
+.matCard{
+    color: azure;
+}
+.profileImg{
+    max-width: 150px;
+    max-height: 150px;
+    border: 5px solid #C2185B;
+    border-radius: 50%;
+
+}
+.imgContainer{
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+.table tr td{
+    padding: 15px 10px;
+    border: 0.5px solid #C2185B;
+    
+}
+
+.matCardAction{
+   
+    color: #C2185B;
+    background-color: gray;
+    text-align: center;
+}
+.matButton{
+
+    margin-left: 5px;
+}
+
+.textCenter{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+.matIcon{
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 20px;
+    
+}
+.matCard{
+    background-color:#C2185B;
+}
+.Menu{
+    color: azure;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid white;
+}

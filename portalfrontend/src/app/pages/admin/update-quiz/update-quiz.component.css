@@ -1,0 +1,37 @@
+.text-center{
+    text-align: center;
+}
+.heading{
+    color: blanchedalmond;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    filter: drop-shadow(10px 10px 20px rgb(240, 203, 69));
+}
+
+/* .top{
+    margin-top: 20px;
+} */
+.body{
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+.body2{
+    background-color: antiquewhite;
+}
+placeholder{
+    color: bisque;
+}
+
+.full-wid{
+    width: 100%;
+}
+button{
+    margin: 3px;
+}
+.mt{
+    margin-top: 10px;
+}

@@ -1,0 +1,58 @@
+.top{
+    margin-top: 2px;
+}
+.heading{
+    color: blanchedalmond;
+}
+/* seudo elemenet */
+h1::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+height: 3px;
+width: 0%;
+background-color: #8b0a46;
+transition: all ease 1s;
+}
+h1:hover::after{
+width: 100%;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(146, 8, 91);
+    /* Shadow in Image */
+    filter: drop-shadow(10px 10px 20px rgb(240, 203, 69));
+    /* border-top-color: #8b0a46;
+    animation: rotate 1s infinite;
+    @keyframes rotate{
+        100%{
+            rotate:360deg;
+        }
+        
+    } */
+}
+.text-center{
+    text-align: center;
+}
+.body{
+    margin-top: 80px;
+    background-color: lightslategray;
+    border-radius: 10px;
+}
+.body2{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+placeholder{
+    color: bisque;
+}
+.full-wid{
+    width: 100%;
+}
+button{
+    margin: 3px;
+}
