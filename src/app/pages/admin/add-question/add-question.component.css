@@ -1,0 +1,32 @@
+.w100{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.body{
+    /* background-color: lightslategray;
+    border-radius: 10px; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.body2{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+placeholder{
+    color: bisque;
+}
+
+.full-wid{
+    width: 100%;
+}
+button{
+    margin: 3px;
+}
+.mt{
+    margin-top: 10px;
+}
+
+
+  

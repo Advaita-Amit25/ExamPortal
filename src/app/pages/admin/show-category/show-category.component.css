@@ -1,0 +1,36 @@
+/* .item{
+    display: inline-block;
+}
+.item1{
+    display: block;
+    
+} */
+.header{
+    text-align: center;
+    color: aliceblue;
+   padding: 5px;
+   background-color: #C2185B;
+   border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.des{
+    float: right;
+    margin-right: 100px;
+    font-weight: 100;
+}
+.matIcon{
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 20px;
+   margin-right: 5px;
+    
+}
+
+hr { 
+    height: 1px; 
+    background-color: #C2185B; 
+    border: none; 
+} 

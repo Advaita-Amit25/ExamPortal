@@ -1,0 +1,53 @@
+<mat-card class="matCard">
+    <h2>Your Profile Details </h2>
+    <mat-card-content>
+        <div class="bootstrap-wrapper">
+            <div class="container">
+                <div class="imgContainer">
+                    <img src="https://th.bing.com/th/id/OIP.1DLYAqE5UY19idJJOkFQegHaHa?pid=ImgDet&rs=1" class="profileImg" alt="">
+                    <h1 >Amit Saini</h1>
+                </div>
+
+                <div class="row textCenter">
+                    <div class="col-md-10 offset-ms-1 ">
+                        <table class="table ">
+                            <tr>
+                                <td>Username</td>
+                                <td>{{login.getUser().username}} </td>
+                            </tr>
+                            <tr>
+                                <td>User Id</td>
+                                <td>{{login.getUser().id}}</td>
+                            </tr>
+                            <tr>
+                                <td>First Name</td>
+                                <td> {{login.getUser().firstName}} </td>
+                            </tr>
+
+                            <tr>
+                                <td>Phone Number</td>
+                                <td> {{login.getUser().phone}} </td>
+                            </tr> 
+                            <tr>
+                                <td>Role </td>
+                                <td> {{login.getUser().authorities[0].authority}} </td>
+                            </tr> 
+                            
+                            <tr>
+                                <td>Status</td>
+                                <td> {{login.getUser().enable?"ACTIVE":"NOT ACTIVE"}} </td>
+                                
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </mat-card-content>
+    <mat-card-actions class="matCardAction textCenter">
+        <button mat-raised-button color="primary" class="matButton">UPDATE</button>
+        <button mat-raised-button color="primary" class="matButton">SHARE</button>
+      </mat-card-actions>
+</mat-card>

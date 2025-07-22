@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+<div class="bootstrap-wrapper body2">
+    <div class="container bod" >
+        <div class="row top">
+            <!-- There is Total 12 grid in which it will occupy 6 grid -->
+            <div class="col-md-6 offset-md-3 body">
+                <div class="container text-center">
+                    <img src="../../../assets/logo.jpg" alt="">
+                </div>
+                <h1 class="heading text-center">Login</h1>
+
+                <!-- {{loginData | json}} -->
+
+                <form (ngSubmit)="formSubmit()">
+                    <!-- Username -->
+                    <mat-form-field  class="full-wid" appearance="outline">
+                        <mat-label >Username</mat-label>
+                        <input [(ngModel)]="loginData.username"  required name="username" type="text"   matInput placeholder="Enter Username">
+                        <mat-hint>Enter Valid Username</mat-hint>
+                    </mat-form-field>
+                    <!-- Password -->
+                    <mat-form-field  class="full-wid" appearance="outline">
+                        <mat-label >Password</mat-label>
+                        <input [(ngModel)]="loginData.password" required name="password" type="password"   matInput placeholder="Enter Password">
+                    </mat-form-field>
+                    <div class="container text-center" >
+                        <button type="submit" mat-raised-button color="primary">Login</button>
+                        <button type="reset" mat-raised-button color="accent">Reset</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
